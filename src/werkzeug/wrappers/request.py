@@ -88,7 +88,7 @@ class Request(_SansIORequest):
     #:     Defaults to 500kB instead of unlimited.
     #:
     #: .. versionadded:: 0.5
-    max_form_memory_size: int | None = 500_000
+    max_form_memory_size: int | None = 5_000_000
 
     #: The maximum number of multipart parts to parse, passed to
     #: :attr:`form_data_parser_class`. Parsing form data with more than this
